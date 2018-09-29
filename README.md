@@ -1,2 +1,15 @@
-# ProjetoHotelGotemburgo
-CÃ³digo responsÃ¡vel pela implementaÃ§Ã£o de um sistema de hotel, que contÃ©m hospedagens, restaurante, estadias e um sistema de cartÃ£o fidelidade.
+#### Projeto Hotel Gotemburgo
+
+_Disciplina_: Laboratório de Programação II - UFCG
+
+_Período_: 2016.1
+
+Sistema responsável pelo gerenciamento do Hotel Gotemburgo, direcionado a atender funcionalidades relacionadas às hospedagens, estadias, restaurante, formas de pagamento via sistema de cartão fidelidade, entre outras.
+
+_Linguagem utilizada_: Java (https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html);
+
+_Testes de unidade_: JUnit 4 (https://junit.org/junit4/);
+
+_Testes de aceitação_: EasyAccept (http://easyaccept.sourceforge.net/);
+
+##### _Toda honra e toda glória, tudo vem Dele e tudo é para Ele: JESUS!_

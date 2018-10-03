@@ -34,8 +34,8 @@ public class TestRestaurante {
 
 		Assert.assertEquals("R$3,00", facade.consultaRestaurante("Tapioca", "Preco"));
 		
-		// Deveria ser 25,90, mas ta dando 23,31.
-		//Assert.assertEquals("R$25,90", facade.consultaRestaurante("Moda Nordestina", "Preco"));
+		// Preco total da refeicao = R$25,90. Porem, dado o desconto por compra da refeicao completa: R$23,31.
+		Assert.assertEquals("R$23,31", facade.consultaRestaurante("Moda Nordestina", "Preco"));
 		
 		Assert.assertEquals("Doce de leite caseiro", facade.consultaRestaurante("Doce de Leite", "Descricao"));
 		Assert.assertEquals("Comidas tipicas da regiao Nordeste Serao servidos: (1) Rubacao, (2) Delicia de Macaxeira, (3) Doce de Leite.", facade.consultaRestaurante("Moda Nordestina", "Descricao"));

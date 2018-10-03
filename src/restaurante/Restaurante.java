@@ -146,12 +146,13 @@ public class Restaurante {
 					+ "no minimo 3 e no maximo 4 pratos.");
 
 		for (int i = 0; i < nomeDosPratos.length; i++) {
-			if (!this.contemPrato(nomeDosPratos[i]))
+			if (!this.contemPrato(nomeDosPratos[i])) {
 				throw new ValorException("Erro no cadastro de refeicao. So eh possivel cadastrar refeicoes "
 						+ "com pratos ja cadastrados.");
-
-			Prato prato = this.buscaPrato(nomeDosPratos[i]);
-			pratos.add(prato);
+			} else {
+				Prato prato = this.buscaPrato(nomeDosPratos[i]);
+				pratos.add(prato);
+			}
 		}
 
 		Comida refeicao = new RefeicaoCompleta(nome, descricao, pratos);

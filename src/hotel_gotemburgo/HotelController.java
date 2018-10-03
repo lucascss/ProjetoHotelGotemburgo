@@ -649,7 +649,7 @@ public class HotelController {
 	}
 
 	public String convertePontos(String email, int qntPontos) throws HotelGotemburgoException {
-		
+
 		Hospede hospede = this.buscaHospede(email);
 		int pontuacao = hospede.getPontos();
 		pontuacao -= qntPontos;

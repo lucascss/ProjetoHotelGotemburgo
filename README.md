@@ -1,15 +1,15 @@
 #### Projeto Hotel Gotemburgo
 
-_Disciplina_: Laboratório de Programação II - UFCG
+_College subject_: LaboratÃ³rio de ProgramaÃ§Ã£o II - UFCG
 
-_Período_: 2016.1
+_Period_: 2016.1
 
-Sistema responsável pelo gerenciamento do Hotel Gotemburgo, direcionado a atender funcionalidades relacionadas às hospedagens, estadias, restaurante, formas de pagamento via sistema de cartão fidelidade, entre outras.
+System responsible for the management of the Gothenburg Hotel, aimed at attending functionalities related to the lodging, stays, restaurant, forms of payment via loyalty card system, among others.
 
-_Linguagem utilizada_: Java (https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html);
+_Language used_: Java (https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html);
 
-_Testes de unidade_: JUnit 4 (https://junit.org/junit4/);
+_Unit tests_: JUnit 4 (https://junit.org/junit4/);
 
-_Testes de aceitação_: EasyAccept (http://easyaccept.sourceforge.net/);
+_Acceptance tests_: EasyAccept (http://easyaccept.sourceforge.net/);
 
-##### _Toda honra e toda glória, tudo vem Dele e tudo é para Ele: JESUS!_
+##### _All honor and all glory, everything comes from him and everything is for him: JESUS!_

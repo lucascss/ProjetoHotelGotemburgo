@@ -1,4 +1,4 @@
-#### Projeto Hotel Gotemburgo
+#### Hotel Gotemburg Project
 
 _College subject_: Laboratório de Programação II - UFCG
 
